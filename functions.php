@@ -25,3 +25,10 @@
             }
         }
     }
+
+    function return_result($result, $msgs = array()){
+        $num_msgs = sizeof($msgs);
+        for($i=0; $i < $num_msgs; $i++){
+            $_SESSION["error"][$i] = $msgs[$i];
+        }
+    }
