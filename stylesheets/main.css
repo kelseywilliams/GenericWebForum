@@ -1,0 +1,85 @@
+body, html{
+    margin:0;
+    padding:0;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+header{
+    height: px;
+    width: 100%;
+    background-color: whitesmoke;
+    position: fixed;
+}
+header h1{
+    width: 350px;;
+    float: left;
+    margin-left: 15px;
+    position: absolute;
+}
+header ul{
+    width: 150px;
+    float: right;
+    list-style: none;
+    padding:0;
+    margin-right: 15px;
+    position: absolute;
+}
+header li{
+    float: right;
+    margin: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    
+}
+.header-container-right{
+    position:relative;
+    width: 175px;
+    float: right;
+}
+.header-container-left{
+    position:relative;
+    width: 50%;
+    float: left;
+}
+.sign-in{
+    background-color: black;
+    border-radius: 2px;
+    color: white;
+    height: 25px;
+    width: 50px;
+}
+main{
+    background-color: antiquewhite;
+    height: 100%;
+    width: 100%;
+    margin-top: 75px;
+    position: fixed;
+
+}
+main ul{
+    padding: 0;
+    list-style: none;
+}
+main li{
+    margin: 25px;
+    font-size: 25px;  
+}
+main a{
+    text-decoration: none;
+}
+.main-container{
+    position: relative;
+    text-align: center;
+    margin: 25px;
+}
+.signup-form{
+    background-color: whitesmoke;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
